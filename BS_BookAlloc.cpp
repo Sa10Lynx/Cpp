@@ -1,3 +1,5 @@
+/*Copy Right 2024*/
+
 #include <bits/stdc++.h> 
 
 bool SolPossible(int n, int m, vector<int> time, int mid){

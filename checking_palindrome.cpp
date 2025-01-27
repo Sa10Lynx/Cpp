@@ -31,14 +31,3 @@ bool checkPalindrome(string s) {
 }
 
 
-int main(){
-    string s;
-    cout<<"provide any string (even with special chareccters)"<<endl;
-    //code removes the special charecters and only checks with alpha numeric values;
-    cin>>s;
-    if(checkPalindrome(s))
-        cout<<s<<" is a palindrome."<<endl;
-    else   
-        cout<<"Given string is not a palindrome."<<endl;
-
-}
